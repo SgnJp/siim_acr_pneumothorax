@@ -1,0 +1,15 @@
+{
+    "output_dir" : "/home/ydzerin/user-data/projects/kaggle/pneu/runs_3/segmentation_models/dpn98_512_0/models",
+    "input_dir" : "/home/ydzerin/user-data/projects/kaggle/pneu/input",
+    "img_size_x" : "512",
+    "img_size_y" : "512",
+    "batch_size" : "8",
+    "num_epochs_1" : "3",
+    "num_epochs_2" : "40",
+    "lr_1" : "0.001",
+    "lr_2" : "0.0001",
+    "gradient_accumulation" : "8",
+    "model_fname" : "",
+    "cv_fold" : "0",
+    "gpu_id" : "1"
+}
