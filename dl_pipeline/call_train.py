@@ -36,4 +36,5 @@ if __name__ == "__main__":
                   gradient_accumulation = int(args["gradient_accumulation"]),
                   cv_fold               = int(args["cv_fold"]),
                   num_workers           = 8,
+                  model_type            = args["model_type"],
                   model_fname           = args["model_fname"])

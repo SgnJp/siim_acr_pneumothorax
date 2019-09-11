@@ -46,6 +46,7 @@ def training_loop(input_dir : str,
                   gradient_accumulation : int,
                   cv_fold : int,
                   num_workers : int,
+                  model_type : str,
                   model_fname : str = ""):
 
 
@@ -106,8 +107,7 @@ def training_loop(input_dir : str,
 
 
 
-    model = smp.Unet('dpn98', encoder_weights='imagenet', classes=1, activation='sigmoid')
-
+    model = smp.Unet(model_type, encoder_weights='imagenet', classes=1, activation='sigmoid')
     model = model.to(device)
 
     print ("Device count:", torch.cuda.device_count())
