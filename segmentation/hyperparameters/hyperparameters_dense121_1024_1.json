@@ -10,7 +10,7 @@
     "lr_2" : "0.0001",
     "gradient_accumulation" : "32",
 	"model_type" : "densenet121",
-    "model_fname" : "",
+    "model_fname" : "pretrained.pth",
     "cv_fold" : "1",
     "gpu_id" : "0"
 }

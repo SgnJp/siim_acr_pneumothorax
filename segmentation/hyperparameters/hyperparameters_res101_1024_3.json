@@ -1,5 +1,5 @@
 {
-    "output_dir" : "segmentation_models/dpn98_1024_3/models",
+    "output_dir" : "segmentation_models/se_resnet101_1024_3/models",
     "input_dir" : "input",
     "img_size_x" : "1024",
     "img_size_y" : "1024",
@@ -9,8 +9,8 @@
     "lr_1" : "0.001",
     "lr_2" : "0.0001",
     "gradient_accumulation" : "32",
-	"model_type" : "dpn98",
-    "model_fname" : "",
+	"model_type" : "se_resnet101",
+    "model_fname" : "pretrained.pth",
     "cv_fold" : "3",
     "gpu_id" : "0"
 }
