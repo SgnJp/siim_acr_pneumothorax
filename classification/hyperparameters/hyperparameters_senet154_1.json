@@ -1,0 +1,16 @@
+{
+    "output_dir" : "classification/senet154/cv_1/models",
+    "input_dir" : "input",
+    "img_size_x" : "768",
+    "img_size_y" : "768",
+    "batch_size" : "2",
+    "num_epochs_1" : "0",
+    "num_epochs_2" : "40",
+    "lr_1" : "0.001",
+    "lr_2" : "0.0001",
+    "model_fname" : "",
+	"model_type" : "senet154",
+    "gradient_accumulation" : "100",
+    "cv_fold" : "1",
+    "gpu_id" : "0"
+}
