@@ -1,0 +1,16 @@
+{
+    "output_dir" : "segmentation_models/dpn98_1024_1/models",
+    "input_dir" : "input",
+    "img_size_x" : "1024",
+    "img_size_y" : "1024",
+    "batch_size" : "2",
+    "num_epochs_1" : "0",
+    "num_epochs_2" : "40",
+    "lr_1" : "0.001",
+    "lr_2" : "0.0001",
+    "gradient_accumulation" : "32",
+	"model_type" : "dpn98",
+    "model_fname" : "",
+    "cv_fold" : "1",
+    "gpu_id" : "0"
+}
