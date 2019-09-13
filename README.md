@@ -1,5 +1,3 @@
-# siim_acr_pneumothorax
-
 # SIIM-ACR Pneumothorax Segmentation (10-th place)
 
 The pipeline to do training and inference on segmentation data.
